@@ -130,7 +130,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions, reach out to [Your Name](mailto:hassid4luv@gmail.com).
+For any questions, reach out to [Hassan Idris](mailto:hassid4luv@gmail.com).
 
 ```
 
