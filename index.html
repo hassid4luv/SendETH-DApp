@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SendETH DApp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SendETH DApp</h1>
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress">Wallet Address: Not Connected</p> <!-- Placeholder for wallet address -->
+    <p id="balance">Balance: 0 ETH</p> <!-- Placeholder for balance -->
+    <div id="sendEth">
+      <h3>Send ETH</h3>
+      <input type="text" id="recipient" placeholder="Recipient Address">
+      <input type="number" id="amount" placeholder="Amount (ETH)" step="0.01">
+      <button id="send">Send</button>
+    </div>
+    <p id="status"></p>
+  </div>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
